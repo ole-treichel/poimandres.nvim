@@ -508,6 +508,8 @@ function M.get(config)
     -- Float term
     TerminalBorder = { link = 'SagaBorder' },
     TerminalNormal = { link = 'SagaNormal' },
+
+    WinSeparator = { fg = p.blueGray3, bg = styles.vert_split },
   }
 
   vim.g.terminal_color_0 = p.background3 -- black
